@@ -1,0 +1,40 @@
+remote_theme: chrisrhymes/bulma-clean-theme
+
+# Site settings
+title: "Your Website Title"
+description: "Your website description"
+url: "https://sjuliakim.github.io"
+baseurl: ""
+
+# Author details
+author:
+  name: "Your Name"
+  email: "your.email@example.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+# Theme settings
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Navigation
+navbar_items:
+  - name: Home
+    link: /
+  - name: About
+    link: /about/
+  - name: Blog
+    link: /blog/
+  - name: Contact
+    link: /contact/
+
+# Social media links (optional)
+github_username: sjuliakim
+twitter_username: your_twitter
+linkedin_username: your_linkedin
